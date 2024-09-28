@@ -24,25 +24,17 @@ Como Executar
 
     Clone o repositório:
 
-    bash
-
 git clone https://github.com/seu-usuario/loteria.git
 
 Navegue até o diretório do projeto:
-
-bash
 
 cd loteria
 
 Compile o código:
 
-bash
-
 javac Main.java Loteria.java
 
 Execute o programa:
-
-bash
 
     java Main
 
@@ -50,33 +42,31 @@ Exemplo de Execução
 
 Ao executar o programa, o usuário será saudado por uma interface com arte em ASCII e um menu de opções:
 
-markdown
+    =================================
+       BEM-VINDO AO BANCO LOTERIA    
 
-=================================
-   BEM-VINDO AO BANCO LOTERIA    
-=================================
+    =================================
       _____  _______  _______    
      |  __ \|__   __||__   __|   
      | |  | |  | |      | |      
      | |  | |  | |      | |      
      | |__| |  | |      | |      
      |_____/   |_|      |_|      
-=================================
+    =================================
 
-Digite o nome do titular da conta: João
-Digite o saldo inicial da conta: 1000.00
+    Digite o nome do titular da conta: João
+    Digite o saldo inicial da conta: 1000.00
 
---- MENU ---
-1. Depositar
-2. Sacar
-3. Render Dinheiro
-4. Listar Conta
-5. Sair
-Escolha uma opção:
+    --- MENU ---
+    1. Depositar
+    2. Sacar
+    3. Render Dinheiro
+    4. Listar Conta
+    5. Sair
+    Escolha uma opção:
 
 Estrutura do Projeto
 
-bash
 
 ├── Main.java          # Classe principal contendo o menu e a lógica de controle.
 ├── Loteria.java       # Classe que representa a conta bancária e suas operações.
